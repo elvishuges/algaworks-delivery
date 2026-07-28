@@ -6,10 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="2e468d0c-c724-4ac6-8128-d3b110bec672" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Microservices/Courier-Management/Courier-Management/src/main/java/com/algaworks/algadelivery/courier/management/domain/model/AssignedDelivery.java" beforeDir="false" afterPath="$PROJECT_DIR$/Microservices/Courier-Management/Courier-Management/src/main/java/com/algaworks/algadelivery/courier/management/domain/model/AssignedDelivery.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Microservices/Courier-Management/Courier-Management/src/main/java/com/algaworks/algadelivery/courier/management/domain/model/Courier.java" beforeDir="false" afterPath="$PROJECT_DIR$/Microservices/Courier-Management/Courier-Management/src/main/java/com/algaworks/algadelivery/courier/management/domain/model/Courier.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Microservices/Courier-Management/Courier-Management/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/Microservices/Courier-Management/Courier-Management/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Microservices/Delivery-Tracking/Delivery-Tracking/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Microservices/Delivery-Tracking/Delivery-Tracking/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
