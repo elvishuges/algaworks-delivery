@@ -19,4 +19,4 @@ public class CourierPayoutCalculationServiceHttpImpl
                 new CourierPayoutCalculationInput(distanceInKm));
         return courierPayoutResultModel.getPayoutFee();
     }
-}
+}   
