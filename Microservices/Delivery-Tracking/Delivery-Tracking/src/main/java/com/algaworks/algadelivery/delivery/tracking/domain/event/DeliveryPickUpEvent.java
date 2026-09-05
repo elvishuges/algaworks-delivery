@@ -11,7 +11,7 @@ import java.util.UUID;
 @Getter
 @AllArgsConstructor
 @ToString
-@JsonTypeName("delivery-picked-up-event")
+@JsonTypeName("delivery-pick-up-event")
 public class DeliveryPickUpEvent {
     private final OffsetDateTime occurredAt;
     private final UUID deliveryId;

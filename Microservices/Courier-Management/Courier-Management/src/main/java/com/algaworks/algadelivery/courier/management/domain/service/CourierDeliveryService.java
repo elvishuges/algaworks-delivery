@@ -25,7 +25,7 @@ public class CourierDeliveryService {
 
         courierRepository.saveAndFlush(courier);
 
-        log.info("Courier {} assigned to delivery {}", courier.getId(), deliveryId);
+        log.info("**** Courier {} assigned to delivery {} ****", courier.getId(), deliveryId);
     }
 
     public void fulfill(UUID deliveryId) {
@@ -36,7 +36,7 @@ public class CourierDeliveryService {
 
         courierRepository.saveAndFlush(courier);
 
-        log.info("Courier {} fulfilled the delivery {}", courier.getId(), deliveryId);
+        log.info("**** Courier {} fulfilled the delivery {} ****", courier.getId(), deliveryId);
     }
 
 }

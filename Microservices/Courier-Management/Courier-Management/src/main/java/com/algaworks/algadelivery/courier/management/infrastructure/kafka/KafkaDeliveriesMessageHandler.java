@@ -10,6 +10,11 @@ import org.springframework.kafka.annotation.KafkaListener;
 import org.springframework.messaging.handler.annotation.Payload;
 import org.springframework.stereotype.Component;
 
+/**
+ * Todas as mensagens recebidas do tópico "deliveries.v1.events" serão tratadas por esta classe.
+ * Cada método anotado com @KafkaHandler será invocado de acordo com o tipo da mensagem 
+ * KafkaDeliveriesMessageHandler
+ */
 @Component
 @KafkaListener(topics = {
         "deliveries.v1.events"

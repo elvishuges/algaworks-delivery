@@ -19,14 +19,14 @@ public class DeliveryDomainEventHandler {
 
     @EventListener
     public void handle(DeliveryPlacedEvent event) {
-        log.info(event.toString());
+        log.info("****Handling DeliveryPlacedEvent: {}****", event.toString());
         integrationEventPublisher.publish(event,
                 event.getDeliveryId().toString(), deliveryEventsTopicName);
     }
 
     @EventListener
     public void handle(DeliveryPickUpEvent event) {
-        log.info(event.toString());
+        log.info("****Handling DeliveryPickUpEvent: {}****",    event.toString());
         integrationEventPublisher.publish(event,
                 event.getDeliveryId().toString(), deliveryEventsTopicName);
     }
